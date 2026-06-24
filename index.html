@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>As Provas e os Gabaritos</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b1f3a;
+padding:20px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+}
+
+h1{
+color:white;
+text-align:center;
+font-size:42px;
+margin-bottom:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,.25);
+line-height:1.8;
+font-size:18px;
+}
+
+.pergunta{
+font-size:28px;
+font-weight:bold;
+text-align:center;
+margin:25px 0;
+color:#002b5c;
+}
+
+.faq{
+margin-top:30px;
+}
+
+.item{
+background:white;
+margin-bottom:12px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+.titulo{
+padding:18px;
+font-weight:bold;
+cursor:pointer;
+background:#163f73;
+color:white;
+}
+
+.conteudo{
+display:none;
+padding:18px;
+background:white;
+}
+
+.botao{
+display:block;
+text-align:center;
+background:#25d366;
+color:white;
+text-decoration:none;
+padding:18px;
+border-radius:10px;
+font-size:22px;
+font-weight:bold;
+margin-top:25px;
+}
+
+.botao:hover{
+opacity:.9;
+}
+
+@media(max-width:700px){
+h1{
+font-size:30px;
+}
+.card{
+font-size:16px;
+}
+.pergunta{
+font-size:22px;
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>AS PROVAS E OS GABARITOS</h1>
+
+<div class="card">
+
+<p>Você não tem estudo suficiente para um concurso ou entende que a prova do concurso é muito difícil?</p>
+
+<p>Está se perguntando por onde começar a estudar ou o que estudar?</p>
+
+<p><strong>EU VOU TE FAZER APENAS UMA PERGUNTA E VOCÊ VAI ENTENDER O QUE PRECISA ESTUDAR PARA PASSAR NO CONCURSO.</strong></p>
+
+<div class="pergunta">
+POSSO FAZER A PERGUNTA?
+</div>
+
+<div class="pergunta">
+SIM.
+</div>
+
+<div class="pergunta">
+QUEM TEM MAIS CHANCES DE PASSAR EM UMA PROVA?
+</div>
+
+<p>Quem assistiu a dezenas de vídeos no YouTube?</p>
+
+<p>Quem leu tantos textos acreditando que lembraria de tudo na hora da prova?</p>
+
+<p>Ou quem tem acesso às últimas provas de PM de cada estado com seus respectivos gabaritos?</p>
+
+<p><strong>Obviamente você escolheu quem tem acesso às provas.</strong></p>
+
+<p>Isso é tão real que as pessoas sempre falam:</p>
+
+<p><strong>"No sétimo concurso que fiz, eu passei. Você não pode desistir!"</strong></p>
+
+<p>Isso não é 100% mentira.</p>
+
+<p>Mas, na verdade, o que ela não percebeu é que, de tanto fazer esse estilo de prova, ela aprendeu.</p>
+
+</div>
+
+<div class="faq">
+
+<div class="item">
+<div class="titulo" onclick="abrir(this)">
+1. QUAL O VALOR DAS PROVAS? ▼
+</div>
+<div class="conteudo">
+R$ XX,XX
+</div>
+</div>
+
+<div class="item">
+<div class="titulo" onclick="abrir(this)">
+2. COMO VOU RECEBER AS PROVAS? ▼
+</div>
+<div class="conteudo">
+As provas chegam imediatamente no seu Gmail, podendo ser acessadas pelo celular, computador ou impressas.<br><br>
+Caso não queira receber por Gmail, realize o pagamento e envie o comprovante para o WhatsApp informado.
+</div>
+</div>
+
+<div class="item">
+<div class="titulo" onclick="abrir(this)">
+3. E SE, POR ALGUM MOTIVO, EU NÃO GOSTAR? ▼
+</div>
+<div class="conteudo">
+Você tem 7 dias para pedir reembolso.
+</div>
+</div>
+
+<div class="item">
+<div class="titulo" onclick="abrir(this)">
+4. TENHO RECEIO DE COMPRAR ONLINE. POSSO COMPRAR DIRETAMENTE PELO WHATSAPP? ▼
+</div>
+<div class="conteudo">
+Sim. Clique no botão abaixo e mande uma mensagem.
+</div>
+</div>
+
+<a class="botao" href="https://wa.me/5500000000000" target="_blank">
+CLIQUE AQUI E MANDE UMA MENSAGEM
+</a>
+
+</div>
+
+</div>
+
+<script>
+function abrir(elemento){
+let conteudo = elemento.nextElementSibling;
+
+if(conteudo.style.display==="block"){
+conteudo.style.display="none";
+}else{
+conteudo.style.display="block";
+}
+}
+</script>
+
+</body>
+</html>
